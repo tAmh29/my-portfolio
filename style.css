@@ -15,10 +15,7 @@ body {
     font-family: var(--font-base), sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: var(--color-heading);
-    text-decoration: none;
-}
+
 
 a {
     text-decoration: none;
@@ -32,7 +29,10 @@ a {
 
 .navbar-nav .nav-link:hover {
     color: var(--color-hover);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10%;
 }
+
 
 .hero {
     background-image: url(./src/img/dark-blue-memphis-blog-banner-template_53876-98946.jpg);
@@ -54,9 +54,34 @@ a {
     /* Adjust the vertical spacing as needed */
 }
 
+.intro-paragraph {
+    margin-right: 200px;
+}
+
+.ame-paragraph {
+    margin-right: 100px;
+}
 
 .img-ame {
     transform: scaleX(-1);
     display: block;
     margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+.pt-2 {
+    padding-top: 8rem !important;
+}
+
+.pt-3 {
+    padding-top: 8rem !important;
+}
+
+.pt-5 {
+    padding-top: 8rem !important;
+}
+
+.empty-gif {
+    padding-top: 2rem !important;
 }
