@@ -54,14 +54,6 @@ a {
     /* Adjust the vertical spacing as needed */
 }
 
-.intro-paragraph {
-    margin-right: 200px;
-}
-
-.ame-paragraph {
-    margin-right: 100px;
-}
-
 .img-ame {
     transform: scaleX(-1);
     display: block;
