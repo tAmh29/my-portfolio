@@ -10,6 +10,11 @@
     --font-base: "Bai Jamjuree";
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
+
 body {
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
