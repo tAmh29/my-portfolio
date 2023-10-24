@@ -2,7 +2,8 @@
 
 :root {
     --color-body: #b6cbce;
-    --color-heading: #eef3db;
+    --color-heading: #color: #FF0000;
+    ;
     --color-base: #033f47;
     --color-base2: #022a30;
     --color-hover: #00FFFF;
@@ -11,7 +12,7 @@
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 
@@ -32,12 +33,6 @@ a {
 
 }
 
-.navbar-nav .nav-link:hover {
-    color: var(--color-hover);
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 10%;
-}
-
 
 .hero {
     background-image: url(./src/img/dark-blue-memphis-blog-banner-template_53876-98946.jpg);
@@ -50,13 +45,9 @@ a {
 
 .centered-line {
     border-top: 2px solid #333;
-    /* Customize width and color as needed */
     width: 25%;
-    /* Adjust the width of the line */
     margin: 0 auto;
-    /* Center the line horizontally */
     margin-top: 20px;
-    /* Adjust the vertical spacing as needed */
 }
 
 .img-ame {
@@ -72,7 +63,7 @@ a {
 }
 
 .pt-3 {
-    padding-top: 8rem !important;
+    padding-top: 9rem !important;
 }
 
 .pt-5 {
@@ -81,4 +72,8 @@ a {
 
 .empty-gif {
     padding-top: 2rem !important;
+}
+
+.pt-1 {
+    padding-top: 25rem !important;
 }
