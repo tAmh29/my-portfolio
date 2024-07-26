@@ -76,3 +76,51 @@ a {
 .pt-1 {
     padding-top: 25rem !important;
 }
+
+.hr {
+    border-top: 1px solid #333;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.text-box {
+    width: 100%;
+    /* Makes the width adapt to the parent container */
+    max-width: 500px;
+    /* Maximum width of the text box */
+    margin: auto;
+    /* Centers the text box if the parent is wider */
+    /* Adds space inside the text box */
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .text-box {
+        width: 90%;
+        /* Slightly narrower on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .text-box {
+        width: 100%;
+        /* Uses full width on very small screens */
+    }
+}
